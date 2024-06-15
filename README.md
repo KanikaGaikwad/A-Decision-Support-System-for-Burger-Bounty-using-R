@@ -1,5 +1,7 @@
 # Burger Bounty Decision Support System (DSS)
 
+![16bb0a3ab8ea98cfe8906135767f7bf4](https://github.com/KanikaGaikwad/A-Decision-Support-System-for-Burger-Bounty-using-R/assets/138404863/5d29bc1d-3eb0-4569-9a16-f0ac70e37055)
+
 ## Project Overview
 
 Developed a Decision Support System (DSS) using R Shiny for Burger Bounty, a gourmet meatless burger food truck. The goal was to optimize sales and operations by analyzing factors like weather, day of the week, prices, and location.
