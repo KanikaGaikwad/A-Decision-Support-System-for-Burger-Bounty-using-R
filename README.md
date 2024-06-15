@@ -23,6 +23,44 @@ Enhance food truck sales and operational efficiency.
 - R Shiny: Interactive user interface.
 - Excel: Data storage and retrieval.
 
+## Getting Started
+1. Clone the Repository:
+Clone the GitHub repository to your local machine to access the R script and dataset.
+
+```bash
+git clone https://github.com/KanikaGaikwad/A-Decision-Support-System-for-Burger-Bounty-using-R.git
+```
+
+2. Open in RStudio:
+Open the R script (script.R) in RStudio.
+
+3. Install Required Packages:
+Make sure you have the required R packages installed by running the following commands in RStudio:
+```r
+install.packages("shiny")
+install.packages("shinydashboard")
+install.packages("openxlsx")
+```
+4. Run the Script:
+Run the R script to load the necessary libraries, perform regression analysis, and set up the Shiny dashboard.
+
+## Import Dataset
+Before running the Shiny app, ensure that you have the Burger Bounty dataset available. You can import the dataset using the following R code:
+```r
+library(openxlsx)
+
+# Load the dataset
+BurgerBounty_Visits <- read.xlsx("path/to/your/dataset/BurgerBounty_Visits.xlsx", sheet = 1)
+BurgerBounty_Prices <- read.xlsx("path/to/your/dataset/BurgerBounty_Prices.xlsx", sheet = 1)
+BurgerBounty_Sales <- read.xlsx("path/to/your/dataset/BurgerBounty_Sales.xlsx", sheet = 1)
+```
+Replace "path/to/your/dataset/" with the actual path to your dataset files.
+# Load the dataset
+BurgerBounty_Visits <- read.xlsx("path/to/your/dataset/BurgerBounty_Visits.xlsx", sheet = 1)
+BurgerBounty_Prices <- read.xlsx("path/to/your/dataset/BurgerBounty_Prices.xlsx", sheet = 1)
+BurgerBounty_Sales <- read.xlsx("path/to/your/dataset/BurgerBounty_Sales.xlsx", sheet = 1)
+Replace "path/to/your/dataset/" with the actual path to your dataset files.
+
 
 ## Dashboard Design:
 
